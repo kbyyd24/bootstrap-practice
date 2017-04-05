@@ -62,3 +62,12 @@ body {
   font-size: 1.5em;
   display: inline;
 }
+
+.description {
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px 10px 0;
+  border-bottom: 1px solid #dddddd;
+  background-color: #eeeeee;
+  display: inline;
+}
