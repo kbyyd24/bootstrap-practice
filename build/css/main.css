@@ -26,3 +26,7 @@ span {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+#header {
+  margin-top: -75px;
+}
