@@ -26,3 +26,8 @@ span {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+#resume {
+    width: 80%;
+    margin: auto;
+}
