@@ -19,3 +19,10 @@
 span {
     color: #F0563D;
 }
+
+.box {
+    color: #F0563D;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
