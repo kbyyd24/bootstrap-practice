@@ -46,3 +46,10 @@ body {
   background-color: #ededed;
   font-family: 'Open Sans', Arial, Tahoma;
 }
+
+#education {
+  margin-top: 20px;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
