@@ -180,8 +180,25 @@ body {
 }
 
 .contact-item .icon {
+  width: 12%;
   padding: 10px;
   border-right: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
   opacity: 0.2;
+}
+
+.contact-item .fa {
+  font-size: 2em;
+}
+
+.contact-item .title {
+  width: 86%;
+  /*width: calc(100% - 55px);*/
+  font-size: 1.5em;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.contact-item .title.only {
+  margin-top: 10px;
 }
