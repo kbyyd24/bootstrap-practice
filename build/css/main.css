@@ -76,3 +76,8 @@ body {
 #experiences {
   list-style: none;
 }
+
+.where {
+  font-size: 1.6em;
+  font-weight: bold;
+}
