@@ -187,6 +187,10 @@ body {
   opacity: 0.2;
 }
 
+.contact-item:last-child .icon {
+  border-bottom: none;
+}
+
 .contact-item .fa {
   font-size: 2em;
 }
