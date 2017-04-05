@@ -39,3 +39,10 @@ span {
   margin-bottom: 15px;
   background-color: #fff;
 }
+
+body {
+  font-weight: 400;
+  color: #363636;
+  background-color: #ededed;
+  font-family: 'Open Sans', Arial, Tahoma;
+}
