@@ -71,10 +71,6 @@ body {
   margin-right: 5px;
 }
 
-#header {
-  margin-top: -75px;
-}
-
 #education {
   margin-top: 20px;
   position: relative;
@@ -82,23 +78,41 @@ body {
   list-style: none;
 }
 
-#education li .year {
+#education li {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+
+#education .year {
   width: 10%;
   background-color: #fff;
   padding: 10px;
   font-weight: 700;
   font-size: 1.5em;
-  display: inline;
+  display: inline-block;
 }
 
-.description {
-  width: 80%;
+#education .description {
+  width: 90%;
   margin-bottom: 10px;
   position: relative;
-  padding: 10px 10px 0;
-  border-bottom: 1px solid #dddddd;
-  background-color: #eeeeee;
-  display: inline;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #eee;
+  display: inline-block;
+}
+
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 25px;
+  top: 0;
+  content: '';
+  display: block;
+  background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
 }
 
 .experiences {
