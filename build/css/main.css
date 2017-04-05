@@ -54,7 +54,7 @@ body {
   list-style: none;
 }
 
-.year {
+#education li .year {
   width: 10%;
   background-color: #fff;
   padding: 10px;
@@ -80,4 +80,9 @@ body {
 .where {
   font-size: 1.6em;
   font-weight: bold;
+}
+
+#experiences .year {
+  font-size: 1.3em;
+  opacity: 0.7;
 }
