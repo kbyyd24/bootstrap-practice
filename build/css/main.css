@@ -53,7 +53,7 @@ body {
   display: inline-block;
 }
 
-/*--------- content ---------------*/
+/*--------- content title ---------------*/
 
 .box {
   margin-bottom: 15px;
@@ -70,6 +70,8 @@ body {
   content: '//';
   margin-right: 5px;
 }
+
+/*---------- education -----------*/
 
 #education {
   margin-top: 20px;
@@ -113,6 +115,13 @@ body {
   content: '';
   display: block;
   background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+}
+
+#education h3 {
+  font-size: 1.6em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
 }
 
 .experiences {
