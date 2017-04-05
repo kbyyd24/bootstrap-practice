@@ -11,6 +11,7 @@ body {
   font-family: 'Open Sans', Arial, Tahoma;
 }
 
+/*---------- header --------------*/
 
 #text-header h1 {
   margin: 0;
@@ -52,9 +53,7 @@ body {
   display: inline-block;
 }
 
-span {
-  color: #F0563D;
-}
+/*--------- content ---------------*/
 
 .box {
   margin-bottom: 15px;
@@ -64,6 +63,12 @@ span {
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
+  color: #ec7263;
+}
+
+.box h2:before {
+  content: '//';
+  margin-right: 5px;
 }
 
 #header {
