@@ -74,11 +74,11 @@ body {
 }
 
 #experiences {
-  list-style: none;
+  margin-bottom: 15px;
 }
 
 .where {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
