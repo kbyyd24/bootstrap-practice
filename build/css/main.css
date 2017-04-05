@@ -72,3 +72,7 @@ body {
   background-color: #eeeeee;
   display: inline;
 }
+
+#experiences {
+  list-style: none;
+}
