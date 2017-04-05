@@ -21,6 +21,10 @@ span {
 }
 
 .box {
+  margin-bottom: 15px;
+}
+
+.box h2{
   font-size: 1.8em;
   font-weight: 700;
   text-transform: uppercase;
