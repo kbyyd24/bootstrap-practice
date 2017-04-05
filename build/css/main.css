@@ -53,7 +53,7 @@ body {
   display: inline-block;
 }
 
-/*--------- content title ---------------*/
+/*--------- box ---------------*/
 
 .box {
   margin-bottom: 15px;
@@ -69,6 +69,10 @@ body {
 .box h2:before {
   content: '//';
   margin-right: 5px;
+}
+
+.box p {
+  line-height: 1.5em;
 }
 
 /*---------- education -----------*/
@@ -117,11 +121,31 @@ body {
   background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
 }
 
-#education h3 {
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+
+#education .description h3 {
   font-size: 1.6em;
   margin: 0;
   padding: 0;
   font-weight: 700;
+}
+
+#education .description p {
+  font-size: 1.3em;
+  margin-top: 5px;
+  padding: 0;
 }
 
 .experiences {
